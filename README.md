@@ -5,7 +5,7 @@ Lindy Msomi | Portfolio
 A personal portfolio website built with Bootstrap 5, HTML, and pure CSS.
 It showcases my projects, skills, and contact information — with a clean, responsive design and a pure‑CSS typing effect.
 
-Overview
+Overview:
 
 This single‑page portfolio highlights:
 
@@ -18,7 +18,7 @@ A footer
 
 The second row of project cards is styled to have equal heights for a balanced layout.
 
-Technologies Used
+Technologies Used:
 
 HTML
 CSS
@@ -26,14 +26,14 @@ Bootstrap 5.3 (grid, cards, forms, utilities)
 Bootstrap Icons
 Git & GitHub (version control)
 
-Features
+Features:
 
 Responsive Layout – Adapts to all screen sizes (mobile, tablet, desktop).
 Fixed Navigation – Always visible for quick section jumping.
 Equal‑Height Cards – The second row of project cards automatically matches heights.
 Interactive Elements – Hover effects on buttons, social icons, and skill badges.
 
-Image Credits
+Image Credits:
 
 The following images are used for demonstration purposes only. All rights belong to their respective owners.
 

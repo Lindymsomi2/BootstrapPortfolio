@@ -1,6 +1,26 @@
 /*
  * Globals
  */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #212529;
+  --card-bg: #ffffff;
+  --icon-color: #000000;
+  --badge-bg: #18a2b8;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #f8f9fa;
+    --card-bg: #1e1e1e;
+    --icon-color: #ffffff;
+    --badge-bg: #0dcaf0;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,10 +40,9 @@
  */
 
 body {
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
-
 /*
  * Header
  */
@@ -69,13 +88,33 @@ body {
 .profile {
   width: 200px;
 }
-.badge {
+/* .badge {
   background-color: #18a2b8;
-}
+} */
 mark {
   background-color: rgba(24, 162, 184, 0.4);
 }
-.social-icons > a {
-  /* text-decoration: none; */
+/* .social-icons > a {
+  
   color: black;
+} */
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.badge {
+  background-color: var(--badge-bg);
+}
+
+.social-icons > a {
+  color: var(--icon-color);
+}
+.theme-form input,
+.theme-form textarea {
+  background-color: var(--input-bg) !important;
+  color: var(--text-color);
+}
+.theme-form ::placeholder {
+  color: var(--text-color);
 }
