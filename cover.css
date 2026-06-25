@@ -65,6 +65,7 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
 .profile {
   width: 200px;
 }
@@ -73,4 +74,8 @@ body {
 }
 mark {
   background-color: rgba(24, 162, 184, 0.4);
+}
+.social-icons > a {
+  /* text-decoration: none; */
+  color: black;
 }
