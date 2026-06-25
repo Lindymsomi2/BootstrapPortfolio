@@ -71,3 +71,6 @@ body {
 .badge {
   background-color: #18a2b8;
 }
+mark {
+  background-color: rgba(24, 162, 184, 0.4);
+}
